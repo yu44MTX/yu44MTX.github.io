@@ -4,13 +4,110 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2024/07/12/hello-world/"/>
-      <url>/2024/07/12/hello-world/</url>
+      <title>Test</title>
+      <link href="/2024/07/16/test2/"/>
+      <url>/2024/07/16/test2/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>you are my sunshine 。</p>]]></content>
       
       
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> musing </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Test</title>
+      <link href="/2024/07/16/test1/"/>
+      <url>/2024/07/16/test1/</url>
+      
+        <content type="html"><![CDATA[<p>you are my sunshine 。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> musing </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Test</title>
+      <link href="/2024/07/15/test/"/>
+      <url>/2024/07/15/test/</url>
+      
+        <content type="html"><![CDATA[<p>you are my sunshine 。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> 主题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo and Butterfly Configuration Tutorial</title>
+      <link href="/2024/07/14/Hexo%20and%20Butterfly%20Configuration%20Tutorial/"/>
+      <url>/2024/07/14/Hexo%20and%20Butterfly%20Configuration%20Tutorial/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><p>And the theme is called <a href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a>! You can check this <a href="https://butterfly.js.org/">Blog</a> for more info. Jerry is the author of this theme, and his <a href="https://butterfly.js.org/">Blog</a> contains detailed tutorials on the Butterfly theme. Of course, you can also follow <a href="#id1">my tutorial</a> below!</p><h2 id="Quick-Start-For-Hexo"><a href="#Quick-Start-For-Hexo" class="headerlink" title="Quick Start For Hexo"></a>Quick Start For Hexo</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><h3 id="Combined-Operations-View-Locally"><a href="#Combined-Operations-View-Locally" class="headerlink" title="Combined Operations: View Locally"></a>Combined Operations: View Locally</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo generate</span><br><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>Tips: “hexo g” and “hexo s” are abbreviations.</p><h3 id="Combined-Operations-Deploy-to-Github-Pages"><a href="#Combined-Operations-Deploy-to-Github-Pages" class="headerlink" title="Combined Operations: Deploy to Github Pages"></a>Combined Operations: Deploy to Github Pages</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo generate</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>Tips: If the website still looks the same, remember to clear your cookies.</p><span id="id1"> <h2 id="Configuration-For-Butterfly"><a href="#Configuration-For-Butterfly" class="headerlink" title="Configuration For Butterfly"></a>Configuration For Butterfly</h2><h3 id="Front-matter-For-Markdown-Documentory"><a href="#Front-matter-For-Markdown-Documentory" class="headerlink" title="Front-matter For Markdown Documentory"></a>Front-matter For Markdown Documentory</h3><p>Front-matter is the top section of a markdown file, separated by <code>---</code>. It contains parameters that can be set for this document.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Configuration Tutorial </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Configuration Tutorial </tag>
+            
+            <tag> Butterfly </tag>
+            
+        </tags>
       
     </entry>
     
