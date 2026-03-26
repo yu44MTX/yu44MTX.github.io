@@ -17,7 +17,7 @@
   website-title: "Nsn_Yu",
   author: "Yu Hu",
   description: "Echoes of My Mind — Dream without fear, love without limits",
-  website-url: "https://yu44MTX.github.io/",
+  website-url: "https://yuhu-ai.top/",
   lang: "zh",
   feed-dir: ("/Blog/",),
 
