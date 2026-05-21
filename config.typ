@@ -14,11 +14,11 @@
     "/CV/": "CV",
   ),
 
-  website-title: "Nsn_Yu",
+  website-title: "Yu Hu",
   author: "Yu Hu",
-  description: "Echoes of My Mind — Dream without fear, love without limits",
+  description: "Yu Hu — PhD student at IntelliArchLab, Rice University. Research on diffusion models, deep-supervised LLMs, and AI security.",
   website-url: "https://yuhu-ai.top/",
-  lang: "zh",
+  lang: "en",
   feed-dir: ("/Blog/",),
 
   header-elements: (

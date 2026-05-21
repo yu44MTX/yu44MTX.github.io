@@ -1,69 +1,52 @@
 #import "../index.typ": template, tufted
 #show: template.with(
-  title: "Edward R. Tufte",
-  description: "CV of Edward R. Tufte",
+  title: "Yu Hu — CV",
+  description: "Curriculum Vitae of Yu Hu",
   lang: "en"
 )
-#import "@preview/citegeist:0.2.0": load-bibliography
 
-= Edward R. Tufte
-
-#tufted.margin-note[
-  Statistician, Artist, and Professor Emeritus \
-  Website: #link("https://www.edwardtufte.com")[edwardtufte.com] \
-  Email: #link("mailto:noreply@edwardtufte.com", "noreply@edwardtufte.com")
-]
-
-#link("CV-PDF.pdf")[[PDF version is available! Click me!]]\
-#link("CV-PDF.pdf")[[点击这里查看 PDF 版本！]]
-
-Research in statistical evidence and analytical design for information visualization, integrating principles from statistics, graphic design, and cognitive science for the effective presentation of quantitative data.
-
-== Experience
-
-- *1983--Present*: Founder & Publisher, Graphics Press. Independent publishing house specializing in information design and data visualization.
-- *1977--1999*: Professor Emeritus, Yale University. Departments of Political Science, Statistics, and Computer Science.
-- *1967--1977*: Instructor, Princeton University. Woodrow Wilson School of Public and International Affairs.
-
-== Artworks
+= Yu Hu (胡宇)
 
 #tufted.margin-note[
-  #image("escaping-flatland.webp")
+  PhD Student \
+  IntelliArchLab \
+  Rice University \
+  Houston, TX, USA
 ]
 
 #tufted.margin-note[
-  A homage to Edward R. Tufte's large stainless steel sculpture titled _Escaping Flatland_
+  #link("mailto:yh188@rice.edu")[yh188\@rice.edu] \
+  #link("https://github.com/yu44MTX")[github.com/yu44MTX]
 ]
 
-Founder of Hogpen Hill Farms, a 234-acre sculpture park in Woodbury, Connecticut. Creator of large-scale works including _Larkin’s Twig_ and the _Escaping Flatland_ series, exhibited at the Aldrich Contemporary Art Museum.
-
-== Research Contributions
-
-Development of sparklines, a method for embedding high-resolution data graphics within text, and formulation of the data-ink ratio as a quantitative measure of graphical efficiency.
-
-== Books
-
-#{
-  let bib = load-bibliography(read("books.bib"))
-  for item in bib.values().rev() [
-    #let data = item.fields
-    - #strong(data.year): #emph(data.title)
-  ]
-}
-
-== Papers
-
-#{
-  let bib = load-bibliography(read("papers.bib"))
-  for item in bib.values().rev() [
-    #let data = item.fields
-    - #data.author, "#data.title," #emph(data.journal), #data.year. DOI: #link(data.url)[#data.doi]
-  ]
-}
-
+#link("CV-PDF.pdf")[[PDF version]]
 
 == Education
 
-- PhD in Political Science: Yale University (1968).
-- MS in Statistics: Stanford University.
-- BS in Statistics: Stanford University.
+- *2025 -- Present.* Ph.D. in Electrical and Computer Engineering, Rice University. \
+  Advisor: Prof. Tony Geng. Lab: IntelliArchLab.
+
+== Research Interests
+
+My research focuses on diffusion models, deep-supervised LLMs, and AI security — with a current emphasis on multi-turn jailbreak attacks against aligned language models. Concretely, I am exploring:
+
+- *Diffusion model efficiency* — dynamic-resolution sampling and trajectory shaping for accelerated denoising.
+- *Deep-supervised LLMs (DS-LLM)* — reasoning architectures with an internal orchestrator that learns where to think, rather than relying on external prompting scaffolds.
+- *Multi-turn AI red-teaming* — attack frameworks against aligned language models, including approaches that use diffusion-style LLMs as the attacker.
+
+== Selected Projects
+
+- *DyRes* — Dynamic-resolution diffusion sampler. Investigated trajectory policies and the "quality cliff" caused by switching resolution near the end of the sampling schedule. Manuscript in revision.
+- *DS-LLM* — Deep-supervised language model with an internal orchestrator. Phase 1 trains ProsQA and GSM8K-Aug on GPT-2 small as a proof of concept; the long-term goal is a DS-native model with no external scaffolding.
+- *Multi-turn Jailbreak* — Studying multi-turn attack strategies (X-teaming, LARGO, STAR) against aligned chat models; exploring whether diffusion-LLM attackers can produce more effective inpaint-style adversarial dialogues.
+
+== Publications
+
+_In submission._
+
+== Skills
+
+- *Languages.* Python, C/C++, Shell, LaTeX, Typst.
+- *ML stack.* PyTorch, Hugging Face Transformers, JAX.
+- *Compute.* NERSC Perlmutter (project m4705).
+- *Tooling.* Claude Code, Cursor, Zotero, Overleaf.

@@ -1,18 +1,19 @@
 #import "../index.typ": template, tufted
 #show: template.with(
   title: "Blog",
-  description: "Some blog examples",
+  description: "Notes and essays by Yu Hu",
+  lang: "en",
 )
 
-= 博客 / Blog
+= Blog
 
-中文博客样例可参考 #link("https://yousa-mirage.github.io/Blog")[我的个人网站]。
+Notes and essays — mostly research, occasionally other things.
 
 == 2025
 
-- #link("2025-10-30-normal-distribution/")[Normal Distribution]
-- #link("2025-04-16-monkeys-apes/")[Monkeys vs Apes]
+- 2025-10-30 — #link("2025-10-30-normal-distribution/")[The Normal Distribution]
+- 2025-04-16 — #link("2025-04-16-monkeys-apes/")[Monkeys vs Apes]
 
 == 2024
 
-- #link("2024-10-04-iterators-generators/")[Iterators vs Generators in Python]
+- 2024-10-04 — #link("2024-10-04-iterators-generators/")[Iterators vs Generators in Python]
