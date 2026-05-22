@@ -1,7 +1,7 @@
 #import "../config.typ": template, tufted
 #show: template
 
-#tufted.margin-note[
+#html.elem("span", attrs: (class: "marginnote profile-card"))[
   #html.elem("img", attrs: (
     src: "imgs/profile.webp",
     alt: "Photo of Yu Hu",
@@ -9,7 +9,7 @@
   ))
 ]
 
-#tufted.margin-note[
+#html.elem("span", attrs: (class: "marginnote profile-card"))[
   *Yu Hu* (胡宇) \
   PhD Student \
   IntelliArchLab \
@@ -17,7 +17,7 @@
   Houston, TX
 ]
 
-#tufted.margin-note[
+#html.elem("span", attrs: (class: "marginnote profile-card"))[
   #link("mailto:yh188@rice.edu")[yh188\@rice.edu] \
   #link("https://github.com/yu44MTX")[github.com/yu44MTX]
 ]
