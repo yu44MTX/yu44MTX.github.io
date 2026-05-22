@@ -2,6 +2,14 @@
 #show: template
 
 #tufted.margin-note[
+  #html.elem("img", attrs: (
+    src: "imgs/profile.webp",
+    alt: "Photo of Yu Hu",
+    class: "avatar",
+  ))
+]
+
+#tufted.margin-note[
   *Yu Hu* (胡宇) \
   PhD Student \
   IntelliArchLab \
