@@ -21,10 +21,7 @@
   lang: "en",
   feed-dir: ("/Blog/",),
 
-  header-elements: (
-    [Echoes of My Mind],
-    [Dream without fear, love without limits],
-  ),
+  header-elements: (),
   footer-elements: (
     "© 2026 Yu Hu",
     [Powered by #link("https://github.com/Yousa-Mirage/Tufted-Blog-Template")[Tufted-Blog-Template]],
