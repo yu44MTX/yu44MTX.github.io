@@ -38,21 +38,6 @@ Three threads I am pulling on in parallel:
 
 A longer version of these threads, with project context, lives on the #link("/CV/")[CV] page.
 
-== Writing
-
-I write here on two cadences:
-
-- *Notes.* Short, self-contained derivations and reading notes — usually math or code.
-- *Essays.* Occasional longer pieces about ideas that wouldn't fit into a paper.
-
-Recent posts:
-
-- 2025-10-30 — #link("/Blog/2025-10-30-normal-distribution/")[The Normal Distribution]
-- 2025-04-16 — #link("/Blog/2025-04-16-monkeys-apes/")[Monkeys vs Apes]
-- 2024-10-04 — #link("/Blog/2024-10-04-iterators-generators/")[Iterators vs Generators in Python]
-
-The full archive is on the #link("/Blog/")[Blog] page.
-
 == Elsewhere
 
 The best way to reach me is by email. Code lives on #link("https://github.com/yu44MTX")[GitHub].

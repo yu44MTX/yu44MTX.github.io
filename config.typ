@@ -10,7 +10,6 @@
   // 然后在 `content/` 路径中新建 `Entry/`路径，在其中添加 `index.typ` 作为 Entry 页的内容
   header-links: (
     "/": "Home",
-    "/Blog/": "Blog",
     "/CV/": "CV",
   ),
 
@@ -19,7 +18,7 @@
   description: "Yu Hu — PhD student at IntelliArchLab, Rice University. Research on diffusion models, deep-supervised LLMs, and AI security.",
   website-url: "https://yuhu-ai.top/",
   lang: "en",
-  feed-dir: ("/Blog/",),
+  feed-dir: (),
 
   header-elements: (),
   footer-elements: (
