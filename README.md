@@ -1,3 +1,18 @@
+<!-- ───────────────── 个人备注 (Yu) ───────────────── -->
+> ## 🚀 我的部署备忘 (yuhu-ai.top)
+>
+> **上线开关 = commit 消息里的 `[publish]` 标记。** 部署由 GitHub Actions 完成,不是本地。
+>
+> | 我想做什么 | 命令 |
+> |---|---|
+> | 只备份代码,**不上线** | `git commit -m "wip: ..."` → `git push`(CI 跳过) |
+> | **上线**到 yuhu-ai.top | `git commit -m "post: ... [publish]"` → `git push` |
+> | 本地预览(不碰网) | `export PATH="$HOME/tools/typst:$PATH"`<br>`uv run build.py build -f` → `open _site/index.html` |
+>
+> ⚠️ 用 `uv run build.py build -f`,**不要**用 `python3 build.py`(系统 Python 是 3.9,build.py 需要 3.10+,`uv` 会自动装)。
+> ⚠️ 真要上线别忘了加 `[publish]`,否则 push 了网站也不会变。
+<!-- ──────────────────────────────────────────────── -->
+
 # Tufted Blog Template
 
 <div align="center">
