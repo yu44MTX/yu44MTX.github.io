@@ -26,6 +26,8 @@
 - *2025 -- Present.* Ph.D. in Electrical and Computer Engineering, Rice University. \
   Advisor: Prof. Tony Geng. Lab: IntelliArchLab.
 
+- *2021 -- 2025.* B.Eng. in Information Security, Huazhong University of Science and Technology (HUST), Wuhan, China.
+
 == Research Interests
 
 My research focuses on diffusion models, deep-supervised LLMs, and AI security — with a current emphasis on multi-turn jailbreak attacks against aligned language models. Concretely, I am exploring:
