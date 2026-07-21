@@ -13,6 +13,9 @@ permissions:
 jobs:
   # Build the site
   build:
+    # 上线开关: 仅当手动触发, 或 commit 消息含 [publish] 时才构建并部署.
+    # 普通 push 会跳过整个流程 -> 只当作备份, 不上线.
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[publish]')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
