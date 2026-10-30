@@ -158,7 +158,7 @@
    catch(error){fail('请点击“选择本地全景”，选中 全景精修图 文件夹内的七张 pano_ 图片后继续浏览。');}
   };
   image.onerror=()=>{if(ticket===generation)fail('暂时找不到'+room.name+'的全景图片。请稍后重新载入，或选择本地全景图片。');};
-  image.src=localFiles.get(key)||'./全景精修图/pano_'+key+'.png'+(key==='hall'?'?v=hall-door-fix1':(key==='second'?'?v=workroom5':(['master','closet'].includes(key)?'?v=parents6':'')));
+  image.src=localFiles.get(key)||'./全景精修图/pano_'+key+'.png'+(key==='hall'?'?v=hall-restored2':(key==='second'?'?v=workroom5':(['master','closet'].includes(key)?'?v=parents6':'')));
  }
  $('rooms').addEventListener('click',e=>{const b=e.target.closest('[data-room]');if(b)loadRoom(b.dataset.room);});
  $('retry').addEventListener('click',()=>loadRoom(active));
