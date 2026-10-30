@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1190" viewBox="0 0 1320 1190" role="img" aria-labelledby="title desc">
+<title id="title">父母主卧与衣帽间：尺寸与操作核对</title>
+<desc id="desc">北向上，两房同比例，分别使用独立西北原点。主卧南段轮廓未知，用虚线和斜线保留。家具为目标尺寸，门窗与开启状态待复尺。</desc>
+<defs><pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0V9" stroke="#b8baa9" stroke-width="2"/></pattern><marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#657056"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;fill:#2d3028;font-size:15px}.small{font-size:13px;fill:#6e7166}.title{font-size:25px}.dim{stroke:#657056;stroke-width:1.3;marker-start:url(#arrow);marker-end:url(#arrow)}.cab{fill:#ddd1bd;stroke:#92765a;stroke-width:1.5}.op{fill:#dce6df;fill-opacity:.65;stroke:#527264;stroke-width:2;stroke-dasharray:6 4}.window{stroke:#7f9c9a;stroke-width:7;stroke-dasharray:8 4}.wall{fill:none;stroke:#67452f;stroke-width:4}.unknown{fill:none;stroke:#92765a;stroke-width:2;stroke-dasharray:9 6}</style>
+<rect width="1320" height="1190" fill="#f5f2ec"/>
+<text x="45" y="48" class="title">父母主卧 / 衣帽间</text><text x="45" y="80" class="small">同比例试排 · 单位 m · 北向上 · 两房并排仅作阅读，不表示实际相邻或连通</text>
+<!-- Both rooms: 145 SVG units per metre; local room coordinates remain in metres. -->
+<g transform="translate(110 175)">
+<text y="-47" class="title">B / 父母主卧</text>
+<rect width="445.875" height="712.675" fill="#fffdf8"/>
+<g transform="scale(145)">
+<rect x="0" y="3.961" width="3.075" height="0.954" fill="url(#hatch)"/>
+<!-- The southern control rectangle is NOT a verified wall outline. -->
+<path d="M0 3.961V0H3.075V3.961" class="wall" vector-effect="non-scaling-stroke"/>
+<path d="M0 3.961V4.915H3.075V3.961M0 3.961H3.075" class="unknown" vector-effect="non-scaling-stroke"/>
+<path d="M0.5 0H2.55" class="window" vector-effect="non-scaling-stroke"/>
+<rect x="0.935" y="1.30" width="2.12" height="1.88" class="cab" vector-effect="non-scaling-stroke"/>
+<rect x="0.995" y="1.34" width="2" height="1.8" fill="#f7f3e9"/>
+<rect x="2.70" y="1.45" width="0.22" height="0.61" rx="0.04" fill="#d8d9c9"/>
+<rect x="2.70" y="2.39" width="0.22" height="0.61" rx="0.04" fill="#d8d9c9"/>
+<rect x="2.655" y="0.82" width="0.4" height="0.4" class="cab" vector-effect="non-scaling-stroke"/>
+<rect x="2.805" y="3.26" width="0.25" height="0.4" class="cab" vector-effect="non-scaling-stroke" stroke-dasharray="4 2"/>
+<rect x="0.02" y="0.25" width="0.35" height="0.8" class="cab" vector-effect="non-scaling-stroke"/>
+</g>
+<line x1="0" y1="-20" x2="445.875" y2="-20" class="dim"/><text x="223" y="-28" text-anchor="middle">3.075 控制宽</text>
+<line x1="-30" y1="0" x2="-30" y2="712.675" class="dim"/><text x="-40" y="355" text-anchor="end">4.915</text>
+<text x="215" y="27" text-anchor="middle" class="small">北窗位置近似，未复尺</text>
+<text x="68" y="91" class="small">薄斗柜</text><text x="68" y="112" class="small">0.80 × 0.35</text>
+<text x="222" y="150" class="small">北柜 0.40 × 0.40</text>
+<text x="277" y="300" text-anchor="middle">床垫 1.80 × 2.00</text><text x="277" y="326" text-anchor="middle" class="small">床架外 2.12 × 1.88</text><text x="277" y="351" text-anchor="middle" class="small">一体床头向东 →</text>
+<line x1="0" y1="405" x2="135.575" y2="405" class="dim"/><text x="68" y="432" text-anchor="middle" class="small">床尾 0.935</text>
+<text x="190" y="507" class="small">南侧悬空层板 0.40 × 0.25</text>
+<line x1="100" y1="461.1" x2="100" y2="574.345" class="dim"/><text x="115" y="545" class="small">0.781 至未知区</text>
+<text x="223" y="620" text-anchor="middle">南段凹口 / 入口 / 服务区</text><text x="223" y="647" text-anchor="middle">全宽保留，实际轮廓未知</text><text x="223" y="674" text-anchor="middle" class="small">y 3.961 至 4.915；虚线不是已确认墙线</text>
+<text x="0" y="746" class="small">图中775标注不解释为门宽；房门和主卫门轨迹待核。</text>
+<text x="0" y="770" class="small">东侧2cm是床头安装目标余量，须核实实际床架。</text>
+<text x="0" y="794" class="small">两侧柜/层板距床各8cm，高度与可及性需结合床垫试用。</text>
+</g>
+<g transform="translate(815 175)">
+<text y="-47" class="title">C / 衣帽间</text><rect width="358.15" height="474.875" fill="#fffdf8"/>
+<g transform="scale(145)">
+<!-- Northwest door segment intentionally unresolved. -->
+<path d="M0.6 0H2.47V3.275H0V1.05" class="wall" vector-effect="non-scaling-stroke"/>
+<path d="M0 1.05V0H0.6" class="unknown" vector-effect="non-scaling-stroke"/>
+<rect x="0" y="0" width="0.6" height="1.05" fill="url(#hatch)"/>
+<rect x="0" y="3.075" width="2.47" height="0.2" fill="url(#hatch)"/>
+<path d="M0.55 3.275H1.92" class="window" vector-effect="non-scaling-stroke"/>
+<rect x="0" y="1.05" width="0.6" height="2.025" class="cab" vector-effect="non-scaling-stroke"/>
+<rect x="1.87" y="0.1" width="0.6" height="2.975" class="cab" vector-effect="non-scaling-stroke"/>
+<path d="M0 1.65H0.6M0 2.325H0.6M1.87 0.7H2.47M1.87 1.5H2.47M1.87 2.1H2.47" fill="none" stroke="#92765a" vector-effect="non-scaling-stroke"/>
+<path d="M1.87 0.1H1.42M1.87 0.55A0.45 0.45 0 0 1 1.42 0.1M0.6 1.05H1.05M0.6 1.5A0.45 0.45 0 0 0 1.05 1.05" class="op" vector-effect="non-scaling-stroke"/>
+<rect x="1.47" y="1.65" width="0.4" height="0.4" class="op" vector-effect="non-scaling-stroke"/>
+</g>
+<line x1="0" y1="-20" x2="358.15" y2="-20" class="dim"/><text x="179" y="-28" text-anchor="middle">2.470 m</text>
+<line x1="-30" y1="0" x2="-30" y2="474.875" class="dim"/><text x="-40" y="240" text-anchor="end">3.275</text>
+<text x="43" y="74" text-anchor="middle" class="small">入口退让</text><text x="43" y="96" text-anchor="middle" class="small">门位待核</text>
+<text x="315" y="62" text-anchor="middle" class="small">镜 / 封闭</text><text x="315" y="160" text-anchor="middle" class="small">长衣</text><text x="315" y="265" text-anchor="middle" class="small">次净衣</text><text x="315" y="375" text-anchor="middle" class="small">双层挂衣</text>
+<text x="43" y="202" text-anchor="middle" class="small">家务柜</text><text x="43" y="291" text-anchor="middle" class="small">布草</text><text x="43" y="391" text-anchor="middle" class="small">叠衣</text>
+<text x="178" y="79" text-anchor="middle" class="small">镜门0.45</text><text x="168" y="187" text-anchor="middle" class="small">家务门0.45</text><text x="166" y="280" text-anchor="middle" class="small">抽屉0.40</text>
+<line x1="87" y1="421" x2="271.15" y2="421" class="dim"/><text x="179" y="407" text-anchor="middle" class="small">关门净距1.27</text>
+<text x="179" y="503" text-anchor="middle" class="small">南窗约x 0.55 至1.92，须保持可操作</text>
+<text x="0" y="548" class="small">总外深0.60 = 0.575柜身 + 0.020门 + 0.005拉手</text><text x="0" y="573" class="small">含门与内凹拉手，不是内部净深；厂家未核。</text>
+<text x="0" y="617" style="font-size:20px">每次只开一扇门或一个抽屉</text><text x="0" y="645" class="small">单侧门：1.27 − 0.45 = 0.82 m</text><text x="0" y="672" class="small">单抽屉：1.27 − 0.40 = 0.87 m</text><text x="0" y="699" class="small">绿色包络叠画供比较，不表示同时使用。</text><text x="0" y="746" class="small">南侧20cm为窗帘退让占位，实际做法未知。</text><text x="0" y="770" class="small">家务柜60cm为外宽，不保证真机放得下。</text><text x="0" y="794" class="small">镜前灯与镜门为概念，电源及承重待核。</text>
+</g>
+<rect x="45" y="1010" width="1230" height="136" fill="#e9e8dd"/>
+<text x="65" y="1040">主卧斗柜与床沿南北错开25cm；仍需验证抽屉拉出、站位与北窗帘。南侧0.781m仅为目标余量，非完整通道认证。</text>
+<text x="65" y="1069" class="small">顶部封闭收换季被褥，日常衣物放舒适可及高度。净高、插座、踢脚、门窗、实际家具和家务设备必须现场复核。</text>
+<text x="65" y="1098" class="small">依据：原始量房图《户型图.jpeg》；家具采用本轮目标外包络。蓝虚线=假定窗段；斜线=保留区；虚线边界=未知。</text>
+<text x="65" y="1127" class="small">本图为功能与操作示意，不是CAD施工图或验收图；不添加额外厚床头、化妆台、高衣柜、地毯或床尾凳。</text>
+</svg>

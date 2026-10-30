@@ -41,3 +41,5 @@ A longer version of these threads, with project context, lives on the #link("/CV
 == Elsewhere
 
 The best way to reach me is by email. Code lives on #link("https://github.com/yu44MTX")[GitHub].
+
+Personal project: #link("/home-design/")[Home design].

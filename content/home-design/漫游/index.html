@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta name="robots" content="noindex,follow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f5f2ec">
+<title>新图精修全景 · 武汉新家</title>
+<style>
+:root{color-scheme:light;--paper:#f5f2ec;--ink:#303329;--muted:#77796d;--line:#dddcd0;--olive:#637052;--wood:#694b35}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.6 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}button,a,input{font:inherit}button{cursor:pointer}button,a{-webkit-tap-highlight-color:transparent}button:focus-visible,a:focus-visible,summary:focus-visible,canvas:focus-visible{outline:3px solid #ccaa70;outline-offset:4px}button:disabled{cursor:default;opacity:.45}a{color:inherit;text-decoration:none}button{color:inherit}header{height:80px;display:flex;align-items:center;justify-content:space-between;gap:18px;max-width:1600px;padding:0 40px;margin:auto}.brand{display:flex;align-items:center;gap:12px}.brand-mark{width:33px;height:33px;border:1px solid var(--wood);display:grid;place-items:center;color:var(--wood);border-radius:50%;font-family:"Songti SC",serif;font-size:17px}.brand b{display:block;letter-spacing:2px;font-weight:500}.brand small{display:block;font-size:9px;letter-spacing:2px;color:var(--muted)}.back{font-size:12px;color:var(--wood);padding:8px 0}.back span{margin-right:8px}main{max-width:1600px;margin:auto;padding:0 40px 28px}.intro{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;padding:26px 0 25px;border-top:1px solid var(--line)}.eyebrow{font-size:10px;letter-spacing:3px;color:var(--olive);margin:0 0 10px}h1{font-family:"Songti SC","Noto Serif CJK SC",Georgia,serif;font-size:clamp(28px,3vw,42px);font-weight:500;line-height:1.25;margin:0}.subhead{color:var(--muted);font-size:13px;margin:0 0 3px}.subhead span{display:block;font-size:11px;margin-top:4px}.viewer{position:relative;isolation:isolate;height:clamp(400px,67vh,900px);min-height:400px;background:#252a22;border-radius:8px;overflow:hidden;box-shadow:0 16px 40px #30332912}.viewer:fullscreen{width:100%;height:100%;border-radius:0;max-height:none}.viewer:-webkit-full-screen{width:100%;height:100%;border-radius:0}.viewer::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:1;background:linear-gradient(180deg,#13170c65 0%,transparent 27%,transparent 65%,#13170c8a 100%)}canvas{width:100%;height:100%;display:block;touch-action:none;cursor:grab}canvas.dragging{cursor:grabbing}.overline{position:absolute;z-index:2;top:25px;left:28px;right:28px;display:flex;align-items:center;justify-content:space-between;gap:15px;color:#fffdf2;pointer-events:none}.room-label{display:flex;align-items:center;gap:12px}.index{font-family:Georgia,serif;font-size:32px;font-weight:400;opacity:.8;line-height:1}.room-name{font-size:17px;letter-spacing:2px}.room-english{font-size:9px;letter-spacing:2px;opacity:.72;margin-top:1px}.live-badge{font-size:10px;letter-spacing:1px;border:1px solid #ffffff40;border-radius:30px;padding:6px 11px;background:#20251a40;backdrop-filter:blur(10px);white-space:nowrap}.live-badge::before{content:"";display:inline-block;background:#c9d8aa;width:5px;height:5px;border-radius:50%;margin-right:7px}.toolbar{position:absolute;bottom:25px;left:28px;right:28px;z-index:2;display:flex;justify-content:space-between;align-items:flex-end;gap:14px}.hint{color:#fffdf2b8;font-size:11px;letter-spacing:1px;pointer-events:none;margin:0}.hint strong{display:block;font-size:13px;font-weight:400;color:#fffdf2;margin-bottom:4px}.controls{display:flex;gap:7px}.control{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;border:1px solid #ffffff35;background:#262d2280;color:#fffdf2;backdrop-filter:blur(12px);transition:background .15s}.control:hover{background:#657052}.control svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.control.text{font-size:22px;line-height:1}.control-wide{width:auto;padding:0 14px;border-radius:24px;font-size:11px;gap:7px;display:flex}.view-state{position:absolute;z-index:4;inset:0;display:grid;place-items:center;background:radial-gradient(ellipse at 50% 45%,#46503b,#22271e);padding:90px 24px;color:#fffdf2;text-align:center}.view-state[hidden]{display:none}.state-inner{max-width:420px}.spinner{width:28px;height:28px;border:1px solid #e7dfcc30;border-top-color:#e7dfcc;border-radius:50%;animation:spin 1.1s linear infinite;margin:0 auto 20px}@keyframes spin{to{transform:rotate(360deg)}}.state-title{font:500 24px/1.4 "Songti SC",Georgia,serif;margin:0 0 12px}.state-copy{font-size:12px;color:#e1e3d5b0;line-height:1.9;margin:0 0 20px}.state-buttons{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}.state-buttons button{background:#f1ecdf;color:#38402e;border:0;border-radius:4px;padding:10px 18px;font-size:12px}.state-buttons .secondary{color:#f1ecdf;background:transparent;border:1px solid #f1ecdf50}.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.selector{display:grid;grid-template-columns:120px 1fr;gap:25px;padding:27px 0 24px;border-bottom:1px solid var(--line)}.selector-title{margin:5px 0 0;font-size:12px;color:var(--wood)}.selector-title small{display:block;color:var(--muted);font-size:10px;letter-spacing:1px;margin-top:4px}.rooms{display:grid;grid-template-columns:repeat(7,1fr);gap:9px}.room{position:relative;text-align:left;min-height:73px;padding:12px 14px;border:1px solid var(--line);border-radius:4px;background:#fffcf5;transition:background .2s,border-color .2s,transform .2s}.room:hover{border-color:#8e957f;transform:translateY(-2px)}.room[aria-pressed=true]{background:var(--olive);border-color:var(--olive);color:#fffef4}.room .num{font-size:9px;letter-spacing:1px;color:#949787;display:block;margin-bottom:4px}.room[aria-pressed=true] .num{color:#d6dec9}.room .name{font-size:13px;letter-spacing:1px}.room[aria-pressed=true]::after{content:"";position:absolute;width:4px;height:4px;border-radius:50%;right:12px;bottom:20px;background:#eef3da}.bottom{display:flex;align-items:flex-start;justify-content:space-between;gap:35px;padding-top:21px}.description{max-width:700px;margin:0;font-size:12px;color:var(--muted);line-height:1.9}.description b{display:block;font-weight:500;color:var(--wood);margin-bottom:3px}.notes{max-width:720px;margin-top:14px;font-size:11px;color:var(--muted);line-height:1.9}.notes summary{width:max-content;cursor:pointer;color:var(--wood)}.notes p{margin:7px 0}.notes button{border:0;border-bottom:1px solid var(--wood);padding:0;background:none;color:var(--wood);font-size:11px}.footer-mark{flex-shrink:0;font-size:10px;text-align:right;letter-spacing:2px;color:var(--muted);padding-top:2px}.footer-mark span{display:block;margin-top:4px;letter-spacing:1px;font-size:9px}.key{font-family:inherit;font-size:10px;padding:1px 4px;border:1px solid #c8c8ba;border-radius:3px}noscript{display:block;padding:25px;background:#efe4d2}.viewer button[hidden]{display:none}@media(max-width:1050px){.selector{grid-template-columns:1fr;gap:12px}.selector-title small{display:inline;margin-left:10px}.room{padding:10px}.rooms{gap:6px}.subhead{max-width:280px;text-align:right}.footer-mark{display:none}}@media(max-width:640px){header{height:68px;padding:0 18px}.brand b{font-size:12px}.brand small{font-size:8px}.brand-mark{width:29px;height:29px}.back{font-size:11px}main{padding:0 14px 25px}.intro{display:block;padding:23px 4px 20px}.eyebrow{font-size:9px}h1{font-size:30px}.subhead{max-width:none;text-align:left;margin-top:12px;font-size:11px}.subhead span{font-size:10px}.viewer{height:58svh;min-height:370px;border-radius:6px}.overline{top:21px;left:19px;right:19px}.live-badge{font-size:9px;padding:5px 9px}.room-name{font-size:15px}.toolbar{left:16px;right:16px;bottom:max(20px,env(safe-area-inset-bottom));display:block}.hint{margin:0 0 16px;font-size:10px}.hint strong{font-size:12px}.controls{justify-content:flex-end}.control{width:38px;height:38px}.control-wide{width:auto;padding:0 12px}.rooms{grid-template-columns:repeat(4,1fr);gap:7px}.room{min-height:66px;padding:10px 12px}.selector{padding-top:20px;padding-bottom:20px}.bottom{padding:18px 4px 0}.description{font-size:11px}.notes{font-size:10px}.room .name{font-size:12px}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0s!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header><a class="brand" href="../index.html" aria-label="返回武汉精修方案"><span class="brand-mark" aria-hidden="true">家</span><span><b>武汉 · 木与暖白</b><small>A HOME TO LIVE IN</small></span></a><a class="back" href="../index.html"><span aria-hidden="true">↖</span>返回精修方案</a></header>
+<main>
+<div class="intro"><div><p class="eyebrow">WUHAN HOME / SPATIAL TOUR</p><h1>走进新家，慢慢看。</h1></div><p class="subhead">新版效果图 · AI全景精修<span>以新版精修图的家具、材质和光线为参考。</span></p></div>
+<section class="viewer" id="viewer" aria-label="房间全景漫游">
+<canvas id="pano" tabindex="0" role="img" aria-label="客餐厅全景。拖动环视，滚轮缩放；也可使用方向键和加减键。" aria-describedby="keyboard-help"></canvas>
+<div class="overline"><div class="room-label"><span class="index" id="room-number">01</span><div><div class="room-name" id="room-name">客餐厅</div><div class="room-english" id="room-english">LIVING & DINING</div></div></div><span class="live-badge">360° 全景</span></div>
+<div class="toolbar"><p class="hint"><strong>把目光，留给生活。</strong>拖动环视 · 滚轮缩放 · 双指开合</p><div class="controls" role="group" aria-label="全景视角控制">
+<button class="control text" id="zoom-out" type="button" title="缩小视野（减号键）" aria-label="缩小">−</button><button class="control text" id="zoom-in" type="button" title="放大视野（加号键）" aria-label="放大">+</button>
+<button class="control control-wide" id="reset" type="button" title="恢复初始视角（Home 键）"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10a8 8 0 1 1 1 7M4 4v6h6"/></svg>回正</button>
+<button class="control" id="fullscreen" type="button" title="进入全屏" aria-label="进入全屏" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></button>
+</div></div>
+<div class="view-state" id="view-state"><div class="state-inner"><div class="spinner" id="spinner" aria-hidden="true"></div><p class="state-title" id="state-title">正在走进客餐厅</p><p class="state-copy" id="state-copy">片刻之后，在这里环视新家。</p><div class="state-buttons" id="state-actions" hidden><button type="button" id="retry">重新载入</button><button class="secondary" type="button" id="choose-error">选择本地全景</button></div></div></div>
+</section>
+<p id="announcement" class="visually-hidden" role="status" aria-live="polite" aria-atomic="true">正在载入客餐厅全景</p>
+<noscript>请开启浏览器的 JavaScript 以浏览全景。<a href="../index.html">返回精修方案</a></noscript>
+<nav class="selector" aria-label="选择房间"><p class="selector-title">换一个空间<small>7 个全景视点</small></p><div class="rooms" id="rooms">
+<button class="room" type="button" data-room="living" aria-pressed="true"><span class="num">01 / LIVING</span><span class="name">客餐厅</span></button>
+<button class="room" type="button" data-room="entry" aria-pressed="false"><span class="num">02 / ENTRY</span><span class="name">玄关</span></button>
+<button class="room" type="button" data-room="balcony" aria-pressed="false"><span class="num">03 / BALCONY</span><span class="name">阳台</span></button>
+<button class="room" type="button" data-room="hall" aria-pressed="false"><span class="num">04 / HALL</span><span class="name">走廊</span></button>
+<button class="room" type="button" data-room="master" aria-pressed="false"><span class="num">05 / MASTER</span><span class="name">主卧 B</span></button>
+<button class="room" type="button" data-room="second" aria-pressed="false"><span class="num">06 / SECOND</span><span class="name">次卧 A</span></button>
+<button class="room" type="button" data-room="closet" aria-pressed="false"><span class="num">07 / CLOSET</span><span class="name">衣帽间 C</span></button>
+</div></nav>
+<div class="bottom"><div><p class="description"><b id="room-description">客餐厅 · 看日常动线，也看家具之间的留白。</b>七个视点可拖动环视；画面用于看风格与搭配，跨视点细节可能有差异。</p><details class="notes"><summary>浏览帮助与尺寸说明</summary><p id="keyboard-help">鼠标或单指拖动环视，滚轮或双指开合缩放。聚焦全景后，<kbd class="key">← ↑ ↓ →</kbd> 转动，<kbd class="key">+ / −</kbd> 缩放，<kbd class="key">Home</kbd> 回正。房间按钮可用 Tab 键选择。</p><p>本页展示AI精修的360°全景图片，保留房间布局作为生成约束；不等同于精确三维重建，不能在图中量尺。家具尺寸请查看方案中的比例核对图，最终以现场复尺及实物为准。</p><p>若直接打开页面后全景未显示，可<button id="choose" type="button">选择本地全景图片</button>，一次选中 全景精修图 文件夹内的七张 pano_ 开头图片，即可继续离线浏览。</p></details></div><div class="footer-mark">WOOD · LIGHT · HOME<span>武汉 / 全屋空间预览</span></div></div>
+<input id="file-picker" class="visually-hidden" type="file" accept="image/jpeg,image/png,image/webp" multiple aria-label="选择七张房间全景图片">
+</main>
+<script>
+'use strict';
+(() => {
+ const $ = id => document.getElementById(id);
+ const rooms = {
+  living:{name:'客餐厅',en:'LIVING & DINING',description:'客餐厅 · 看日常动线，也看家具之间的留白。',index:'01'},
+  entry:{name:'玄关',en:'ENTRY',description:'玄关 · 从归家的第一步，感受木色与暖光。',index:'02'},
+  balcony:{name:'阳台',en:'BALCONY',description:'阳台 · 把光线、洗衣与日常收纳安排在一起。',index:'03'},
+  hall:{name:'走廊',en:'HALL',description:'走廊 · 串起公区与卧室，让通行保持从容。',index:'04'},
+  master:{name:'主卧 B',en:'MASTER BEDROOM',description:'主卧 B · 父母卧室，床边收纳、独立阅读灯和柔和夜灯。',index:'05'},
+  second:{name:'次卧 A',en:'SECOND BEDROOM',description:'次卧 A · 1.5米储物床、电脑长桌与乐高展示，紧凑功能试排。',index:'06'},
+  closet:{name:'衣帽间 C',en:'WALK-IN CLOSET',description:'衣帽间 C · 封闭衣柜、次净衣位与家务柜，开柜时分时通行。',index:'07'}
+ };
+ const canvas=$('pano'), viewer=$('viewer'), overlay=$('view-state');
+ const requestedRoom=new URLSearchParams(location.search).get('room');
+ let gl, program, texture, uniforms, ready=false, active=Object.prototype.hasOwnProperty.call(rooms,requestedRoom)?requestedRoom:'living', generation=0, pendingFrame=0;
+ let yaw=0,pitch=0,fov=75, lastGesture=null, loadTimer=0, contextLost=false;
+ const pointers=new Map(), localFiles=new Map();
+ const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
+ const initialYaw={living:-0.55,entry:-0.45,balcony:0.35,hall:1.10,master:0.55,second:-0.90,closet:Math.PI};
+ function announce(message){$('announcement').textContent=message;}
+ function state(title,copy,error=false){
+  overlay.hidden=false;$('state-title').textContent=title;$('state-copy').textContent=copy;
+  $('spinner').hidden=error;$('state-actions').hidden=!error;
+  canvas.setAttribute('aria-busy',error?'false':'true');
+  announce(title+'。'+copy);
+ }
+ function fail(copy){ready=false;clearTimeout(loadTimer);state('全景暂未显示',copy,true);}
+ function shader(type,source){
+  const s=gl.createShader(type);gl.shaderSource(s,source);gl.compileShader(s);
+  if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw new Error('Shader compilation failed');
+  return s;
+ }
+ function initialize(){
+  gl=canvas.getContext('webgl',{alpha:false,antialias:false,depth:false,preserveDrawingBuffer:false});
+  if(!gl)throw new Error('WebGL unavailable');
+  program=gl.createProgram();
+  gl.attachShader(program,shader(gl.VERTEX_SHADER,'attribute vec2 a_position;varying vec2 v_position;void main(){v_position=a_position;gl_Position=vec4(a_position,0.0,1.0);}'));
+  // Inverse projection samples an equirectangular panorama. Texture v=0 is the image top.
+  gl.attachShader(program,shader(gl.FRAGMENT_SHADER,`
+   precision highp float;
+   varying vec2 v_position;
+   uniform sampler2D u_image;
+   uniform float u_aspect,u_tan,u_yaw,u_pitch,u_texel,u_manual_wrap;
+   const float PI=3.141592653589793;
+   void main(){
+    vec3 d=normalize(vec3(v_position.x*u_aspect*u_tan,v_position.y*u_tan,1.0));
+    float cp=cos(u_pitch),sp=sin(u_pitch),cy=cos(u_yaw),sy=sin(u_yaw);
+    d=vec3(d.x,d.y*cp+d.z*sp,d.z*cp-d.y*sp);
+    d=vec3(d.x*cy+d.z*sy,d.y,d.z*cy-d.x*sy);
+    vec2 uv=vec2(fract(0.5+atan(d.x,d.z)/(2.0*PI)),0.5-asin(clamp(d.y,-1.0,1.0))/PI);
+    vec4 color=texture2D(u_image,uv);
+    if(u_manual_wrap>0.5){
+     float halfTexel=u_texel*0.5;
+     if(uv.x<halfTexel)color=mix(color,texture2D(u_image,vec2(1.0-halfTexel,uv.y)),0.5-uv.x/u_texel);
+     else if(uv.x>1.0-halfTexel)color=mix(color,texture2D(u_image,vec2(halfTexel,uv.y)),0.5-(1.0-uv.x)/u_texel);
+    }
+    gl_FragColor=color;
+   }`));
+  gl.linkProgram(program);
+  if(!gl.getProgramParameter(program,gl.LINK_STATUS))throw new Error('Program linking failed');
+  gl.useProgram(program);
+  const buffer=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,buffer);
+  gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,-1,1,1,-1,1,1]),gl.STATIC_DRAW);
+  const position=gl.getAttribLocation(program,'a_position');gl.enableVertexAttribArray(position);gl.vertexAttribPointer(position,2,gl.FLOAT,false,0,0);
+  uniforms={};['aspect','tan','yaw','pitch','image','texel','manual_wrap'].forEach(n=>uniforms[n]=gl.getUniformLocation(program,'u_'+n));
+  gl.uniform1i(uniforms.image,0);texture=null;
+ }
+ function draw(){
+  pendingFrame=0;if(!gl||!ready||contextLost)return;
+  const rect=canvas.getBoundingClientRect(),ratio=Math.min(window.devicePixelRatio||1,2);
+  const w=Math.max(1,Math.round(rect.width*ratio)),h=Math.max(1,Math.round(rect.height*ratio));
+  if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h;}
+  gl.viewport(0,0,w,h);gl.uniform1f(uniforms.aspect,w/h);gl.uniform1f(uniforms.tan,Math.tan(fov*Math.PI/360));
+  gl.uniform1f(uniforms.yaw,yaw);gl.uniform1f(uniforms.pitch,pitch);
+  gl.drawArrays(gl.TRIANGLES,0,6);
+ }
+ function render(){if(!pendingFrame)pendingFrame=requestAnimationFrame(draw);}
+ function clearGesture(){pointers.clear();lastGesture=null;canvas.classList.remove('dragging');}
+ function reset(){yaw=initialYaw[active]||0;pitch=0;fov=75;clearGesture();render();}
+ function setZoom(value){fov=clamp(value,35,100);render();}
+ function upload(image){
+  const max=gl.getParameter(gl.MAX_TEXTURE_SIZE);
+  if(image.naturalWidth>max||image.naturalHeight>max){
+   const scale=Math.min(max/image.naturalWidth,max/image.naturalHeight),scratch=document.createElement('canvas');
+   scratch.width=Math.max(1,Math.floor(image.naturalWidth*scale));scratch.height=Math.max(1,Math.floor(image.naturalHeight*scale));
+   scratch.getContext('2d').drawImage(image,0,0,scratch.width,scratch.height);image=scratch;
+  }
+  const next=gl.createTexture();gl.activeTexture(gl.TEXTURE0);gl.bindTexture(gl.TEXTURE_2D,next);
+  try{
+   gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL,false);
+   const width=image.naturalWidth||image.width,height=image.naturalHeight||image.height;
+   const powerOfTwo=n=>n>0&&(n&(n-1))===0,periodic=powerOfTwo(width)&&powerOfTwo(height);
+   gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,periodic?gl.REPEAT:gl.CLAMP_TO_EDGE);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);
+   gl.uniform1f(uniforms.texel,1/width);gl.uniform1f(uniforms.manual_wrap,periodic?0:1);
+   gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);
+   while(gl.getError()!==gl.NO_ERROR){if(gl.isContextLost())throw new Error('Context lost');}
+   gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,image);
+   if(gl.getError()!==gl.NO_ERROR)throw new Error('Texture upload failed');
+  }catch(error){gl.deleteTexture(next);throw error;}
+  if(texture)gl.deleteTexture(texture);texture=next;
+ }
+ function loadRoom(key){
+  if(!rooms[key])return;
+  active=key;ready=false;reset();const ticket=++generation;clearTimeout(loadTimer);
+  const room=rooms[key];$('room-name').textContent=room.name;$('room-english').textContent=room.en;$('room-number').textContent=room.index;
+  $('room-description').textContent=room.description;
+  canvas.setAttribute('aria-label',room.name+'全景。拖动环视，滚轮缩放；也可使用方向键和加减键。');
+  document.querySelectorAll('[data-room]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.room===key)));
+  if(!gl||contextLost){fail(contextLost?'画面正在恢复，请稍后重试。':'当前浏览器无法显示全景，请使用支持三维画面的浏览器打开。');return;}
+  state('正在走进'+room.name,'片刻之后，在这里环视新家。');
+  loadTimer=setTimeout(()=>{if(ticket===generation)fail('图片载入时间较长。请重新载入，或选择本地全景图片。');},30000);
+  const image=new Image();image.decoding='async';
+  image.onload=()=>{
+   if(ticket!==generation||contextLost)return;
+   clearTimeout(loadTimer);
+   if(image.naturalWidth/image.naturalHeight<1.95||image.naturalWidth/image.naturalHeight>2.05){fail('请选择 全景精修图 文件夹内 pano_ 开头的完整全景图片。');return;}
+   try{upload(image);ready=true;overlay.hidden=true;canvas.setAttribute('aria-busy','false');render();announce('已进入'+room.name+'，可拖动环视。');}
+   catch(error){fail('请点击“选择本地全景”，选中 全景精修图 文件夹内的七张 pano_ 图片后继续浏览。');}
+  };
+  image.onerror=()=>{if(ticket===generation)fail('暂时找不到'+room.name+'的全景图片。请稍后重新载入，或选择本地全景图片。');};
+  image.src=localFiles.get(key)||'./全景精修图/pano_'+key+'.png'+(key==='second'?'?v=workroom5':(['master','closet'].includes(key)?'?v=parents6':''));
+ }
+ $('rooms').addEventListener('click',e=>{const b=e.target.closest('[data-room]');if(b)loadRoom(b.dataset.room);});
+ $('retry').addEventListener('click',()=>loadRoom(active));
+ $('reset').addEventListener('click',()=>{reset();announce('已恢复初始视角。');});
+ $('zoom-in').addEventListener('click',()=>setZoom(fov-7));$('zoom-out').addEventListener('click',()=>setZoom(fov+7));
+ $('choose').addEventListener('click',()=>$('file-picker').click());$('choose-error').addEventListener('click',()=>$('file-picker').click());
+ $('file-picker').addEventListener('change',e=>{
+  let count=0,first=null;
+  for(const file of e.target.files){const match=/^pano_(living|entry|balcony|hall|master|second|closet)\.(jpe?g|png|webp)$/i.exec(file.name);if(!match)continue;
+   const key=match[1].toLowerCase();if(localFiles.has(key))URL.revokeObjectURL(localFiles.get(key));
+   localFiles.set(key,URL.createObjectURL(file));count++;first=first||key;
+  }
+  e.target.value='';
+  if(count)loadRoom(localFiles.has(active)?active:first);
+  else announce('未找到房间全景。请选择 pano_ 开头的图片。');
+ });
+ function gesture(){const p=[...pointers.values()];if(p.length===1)return{x:p[0].x,y:p[0].y,distance:0};return{x:(p[0].x+p[1].x)/2,y:(p[0].y+p[1].y)/2,distance:Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y)};}
+ canvas.addEventListener('pointerdown',e=>{if(!ready||(e.pointerType==='mouse'&&e.button!==0))return;canvas.focus({preventScroll:true});pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});canvas.setPointerCapture(e.pointerId);lastGesture=gesture();canvas.classList.add('dragging');});
+ canvas.addEventListener('pointermove',e=>{
+  if(!pointers.has(e.pointerId))return;pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});const next=gesture();
+  if(lastGesture){const scale=2*Math.tan(fov*Math.PI/360)/Math.max(canvas.clientHeight,1);
+   yaw-=(next.x-lastGesture.x)*scale;pitch=clamp(pitch+(next.y-lastGesture.y)*scale,-Math.PI*.48,Math.PI*.48);
+   yaw=((yaw+Math.PI)%(2*Math.PI)+2*Math.PI)%(2*Math.PI)-Math.PI;
+   if(next.distance>0&&lastGesture.distance>0)setZoom(2*Math.atan(Math.tan(fov*Math.PI/360)*lastGesture.distance/next.distance)*180/Math.PI);
+  }lastGesture=next;render();
+ });
+ function endPointer(e){pointers.delete(e.pointerId);lastGesture=pointers.size?gesture():null;if(!pointers.size)canvas.classList.remove('dragging');}
+ canvas.addEventListener('pointerup',endPointer);canvas.addEventListener('pointercancel',endPointer);canvas.addEventListener('lostpointercapture',endPointer);window.addEventListener('blur',clearGesture);
+ canvas.addEventListener('wheel',e=>{if(!ready)return;e.preventDefault();const delta=e.deltaY*(e.deltaMode===1?16:e.deltaMode===2?canvas.clientHeight:1);setZoom(fov+clamp(delta,-150,150)*.045);},{passive:false});
+ canvas.addEventListener('keydown',e=>{
+  if(!ready)return;let handled=true;
+  switch(e.key){case'ArrowLeft':yaw-=.09;break;case'ArrowRight':yaw+=.09;break;case'ArrowUp':pitch=clamp(pitch+.07,-Math.PI*.48,Math.PI*.48);break;case'ArrowDown':pitch=clamp(pitch-.07,-Math.PI*.48,Math.PI*.48);break;case'+':case'=':setZoom(fov-5);break;case'-':case'_':setZoom(fov+5);break;case'Home':reset();break;default:handled=false;}
+  if(handled){e.preventDefault();render();}
+ });
+ const fsButton=$('fullscreen');
+ const canFullscreen=(viewer.requestFullscreen&&document.fullscreenEnabled)||(viewer.webkitRequestFullscreen&&document.webkitFullscreenEnabled);
+ if(canFullscreen){fsButton.hidden=false;fsButton.addEventListener('click',async()=>{try{
+  if(document.fullscreenElement||document.webkitFullscreenElement){if(document.exitFullscreen)await document.exitFullscreen();else document.webkitExitFullscreen();}
+  else if(viewer.requestFullscreen)await viewer.requestFullscreen();else viewer.webkitRequestFullscreen();
+ }catch(error){announce('当前无法进入全屏，可继续在页面内浏览。');}});}
+ function fullscreenChange(){const on=Boolean(document.fullscreenElement||document.webkitFullscreenElement);fsButton.setAttribute('aria-label',on?'退出全屏':'进入全屏');fsButton.title=on?'退出全屏':'进入全屏';render();}
+ document.addEventListener('fullscreenchange',fullscreenChange);document.addEventListener('webkitfullscreenchange',fullscreenChange);
+ window.addEventListener('resize',render);if(window.ResizeObserver)new ResizeObserver(render).observe(viewer);
+ canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();contextLost=true;generation++;ready=false;clearTimeout(loadTimer);clearGesture();state('正在恢复画面','稍等片刻，或点击重新载入。',true);});
+ canvas.addEventListener('webglcontextrestored',()=>{try{contextLost=false;initialize();loadRoom(active);}catch(error){fail('画面恢复失败，请刷新页面后重试。');}});
+ window.addEventListener('pagehide',event=>{if(event.persisted)return;localFiles.forEach(url=>URL.revokeObjectURL(url));localFiles.clear();});
+ try{initialize();loadRoom(active);}catch(error){fail('当前浏览器无法显示全景，请使用支持三维画面的浏览器打开。');}
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+.privacy-panel {
+  margin-block: 1.5rem;
+  padding: clamp(1.2rem, 3vw, 2rem);
+  border: 1px solid #d9d8c9;
+  border-radius: 14px;
+  background: #faf9f3;
+  color: #373b2e;
+}
+.privacy-form {
+  display: grid;
+  gap: .75rem;
+  max-width: 28rem;
+}
+.privacy-form label { font-weight: 600; }
+.privacy-form input[type="password"] {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 44px;
+  padding: .7rem .85rem;
+  border: 1px solid #93987d;
+  border-radius: 7px;
+  background: #fffef9;
+  color: #292d23;
+  font: inherit;
+}
+.privacy-form button,
+[data-private-lock] {
+  width: fit-content;
+  min-height: 44px;
+  padding: .65rem 1.1rem;
+  border: 1px solid #596341;
+  border-radius: 7px;
+  background: #596341;
+  color: #fffef9;
+  font: inherit;
+  cursor: pointer;
+}
+[data-private-lock] { margin-block: 1rem; }
+.privacy-form button:hover,
+[data-private-lock]:hover { background: #465032; }
+.privacy-form input:focus-visible,
+.privacy-form button:focus-visible,
+[data-private-lock]:focus-visible {
+  outline: 3px solid #a18a42;
+  outline-offset: 3px;
+}
+.privacy-form :disabled { opacity: .65; cursor: wait; }
+.privacy-panel [data-private-error] { color: #953e2f; }
+.privacy-panel [data-private-status] { color: #596341; }
+.privacy-panel [data-private-error],
+.privacy-panel [data-private-status] {
+  font-size: .95rem;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+.privacy-panel [data-private-error]:empty,
+.privacy-panel [data-private-status]:empty { margin: 0; }
